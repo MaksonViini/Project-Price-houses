@@ -12,3 +12,4 @@ st.title("Sistema de Previsão da House Rocket- By Makson Vinicio")
 st.markdown("Este é um Aplicativo utilizado para exibir a solução de Ciência de Dados para o problema de predição de Compra de imoveis.")
 
 st.sidebar.subheader("Bar")
+st.sidebar.file_
