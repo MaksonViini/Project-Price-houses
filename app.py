@@ -8,7 +8,7 @@ app = MultiApp()
 
 
 # # Adicionando todos as paginas na aplicacao
-app.add_app('DataFrame', dataapp.app)
+app.add_app('Dataapp', dataapp.app)
 
 # Main app
 app.run()

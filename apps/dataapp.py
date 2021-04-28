@@ -1,4 +1,3 @@
-# Aqui vai ter o APP
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -9,18 +8,19 @@ from folium.plugins import marker_cluster
 
 st.set_page_config(layout='wide')
 
-
 def app():
     @st.cache(allow_output_mutation=True)
     def get_data(path):
         return pd.read_csv(path)
 
+
+    # Get data
     path = 'kc_house_data.csv'
 
     data = get_data(path)
 
-    data['price_m2'] = data['price'] / (data['sqtf_lot']) / 10.764
-
+    # Add new features
+    data['price_m2'] = data['price'] /( data['sqft_lot'] / 10.764)
 
     #==========================#
     # Data overview
@@ -46,6 +46,8 @@ def app():
         data = data.copy()
 
 
+    # st.write(f_attributes)
+    # st.write(f_zipcode)
     st.dataframe(data)
 
     c1, c2 = st.beta_columns((1, 1))
@@ -116,20 +118,20 @@ def app():
 
     # Region Price Map
 
-    c2.header('Price Density')
+    # c2.header('Price Density')
 
-    df = data[['price', 'zipcode']].goupby('zipcode').mean().reset_index()
+    # df = data[['price', 'zipcode']].goupby('zipcode').mean().reset_index()
 
-    df.column = ['ZIP', 'PRICE']
+    # df.column = ['ZIP', 'PRICE']
 
-    df = df.sample(10)
+    # df = df.sample(10)
 
-    region_price_map = folium.Map(location=[data['lat'].mean(), data['long'].mean()],
-                                  default_zoom_start=15)
+    # region_price_map = folium.Map(location=[data['lat'].mean(), data['long'].mean()],
+    #                               default_zoom_start=15)
 
-    region_price_map.choropleth(data=df,
-                                geo_data=geofile,
-                                columns=['ZIP', 'PRICE'])
+    # region_price_map.choropleth(data=df,
+    #                             geo_data=geofile,
+    #                             columns=['ZIP', 'PRICE'])
 
     #===================================================#
     # Distribuicao dos imoveis por categorias comerciais
