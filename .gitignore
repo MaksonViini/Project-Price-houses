@@ -1,0 +1,4 @@
+*.__pycache__/
+*apps\__pycache__
+
+apps\__pycache__\dataapp.cpython-39.pyc
