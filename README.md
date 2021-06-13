@@ -20,6 +20,7 @@
 - [Previsão e análise de preços de casas de Seattle](https://github.com/MaksonViini/Project-Price-houses)
 - [Maratona Alura - Enem](https://github.com/MaksonViini/Data-Science-Projects/tree/master/Project-Alura-ENEM2019)
 - [Maratona Behind The Code - Algar](https://github.com/MaksonViini/Data-Science-Projects/tree/master/Project-Behind-The-Code-Algar)
+- [Previsão de Diabetes](https://github.com/MaksonViini/Data-Science-Projects/tree/master/Project-Diabetes)
 - [Classificação de flores - Iris](https://github.com/MaksonViini/Data-Science-Projects/tree/master/Project-Iris)
 - [Classificação de preços de aparelhos mobiles com SVM](https://github.com/MaksonViini/Data-Science-Projects/tree/master/Project-Mobile-Price-Classification)
 
