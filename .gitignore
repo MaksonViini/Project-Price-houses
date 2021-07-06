@@ -6,3 +6,6 @@ apps\__pycache__\dataapp.cpython-39.pyc
 *.txt
 
 *.log
+
+casas.ipynb
+houses.ipynb
