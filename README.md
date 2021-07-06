@@ -1,7 +1,7 @@
 # Projeto Previsão e análise de preços de casas de Seattle
 
 ### Links
-- [Link dos dados](https://www.kaggle.com/caesarlupum/risco-de-credito?select=teste.csv)
+- [Link dos dados](https://www.kaggle.com/harlfoxem/housesalesprediction)
 - [Link do projeto em produção](https://projectpricehouse.herokuapp.com/
 
 ## Principais ferramentas:
