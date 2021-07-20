@@ -2,7 +2,7 @@
 
 ### Links
 - [Link dos dados](https://www.kaggle.com/harlfoxem/housesalesprediction)
-- [Link do projeto em produção](https://projectpricehouse.herokuapp.com/
+- [Link do projeto em produção](https://projectpricehouse.herokuapp.com/)
 
 ## Principais ferramentas:
 - Python (Pandas, Scikit-Learn, Numpy, Seaborn, Matplotlib, StatsModel, Scrapy, Selenium, Plotly, Keras)
